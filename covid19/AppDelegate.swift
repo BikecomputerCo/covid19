@@ -25,10 +25,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         /* Localization */
         if auth.currentUser == nil {
             LocalizationManager.changeLocalizationTo(localization: .macedonian)
+            
+            #warning("Remove this line after you successfully fill firestore with data")
+            DBImport.saveDataToFirestore()
         }
         
         /* Mesh Network */
         ConnectionsManager.shared.startNetwork()
+        
                 
         /* Sign In Anonymously */
         signInAnonymously()
@@ -46,6 +50,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         auth.signInAnonymously { (_, _) in
             /* Mesh Network */
             ConnectionsManager.shared.startPublishing()
+            
         }
     }
 }
