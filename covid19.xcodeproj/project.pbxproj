@@ -54,6 +54,7 @@
 		7DAD21AF243CD82C00B00E9F /* LoadingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DAD21AE243CD82C00B00E9F /* LoadingButton.swift */; };
 		7DAD21B1243CD97100B00E9F /* Domains.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DAD21B0243CD97100B00E9F /* Domains.swift */; };
 		7DAD21B3243CD98C00B00E9F /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DAD21B2243CD98C00B00E9F /* Keys.swift */; };
+		7DAD21B7243D2B3E00B00E9F /* DBImport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DAD21B6243D2B3E00B00E9F /* DBImport.swift */; };
 		7DAFB28D24338F5500F5C668 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DAFB28C24338F5500F5C668 /* AppDelegate.swift */; };
 		7DAFB29624338F5600F5C668 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DAFB29524338F5600F5C668 /* Assets.xcassets */; };
 		7DAFB2AE243391A900F5C668 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DAFB2AD243391A900F5C668 /* Main.storyboard */; };
@@ -129,6 +130,7 @@
 		7DAD21AE243CD82C00B00E9F /* LoadingButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoadingButton.swift; path = LoginButton/LoadingButton.swift; sourceTree = "<group>"; };
 		7DAD21B0243CD97100B00E9F /* Domains.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Domains.swift; sourceTree = "<group>"; };
 		7DAD21B2243CD98C00B00E9F /* Keys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
+		7DAD21B6243D2B3E00B00E9F /* DBImport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBImport.swift; sourceTree = "<group>"; };
 		7DAFB28924338F5500F5C668 /* covid19.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = covid19.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DAFB28C24338F5500F5C668 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7DAFB29524338F5600F5C668 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -321,6 +323,7 @@
 			children = (
 				7DAFB2E82433C60000F5C668 /* covid19.entitlements */,
 				7DAFB28C24338F5500F5C668 /* AppDelegate.swift */,
+				7DAD21B6243D2B3E00B00E9F /* DBImport.swift */,
 				7D42DC9A24364EBF00D5644E /* Constants */,
 				7DAFB2A024338FFF00F5C668 /* View Controllers */,
 				7DD485592433DCAF0070C933 /* UI */,
@@ -641,6 +644,7 @@
 				7D42DCB0243660CE00D5644E /* RegisterLocalization.swift in Sources */,
 				7D66F08D243A590D008117A7 /* ProfileTextFields.swift in Sources */,
 				7D42DCBD2436AD8800D5644E /* PhoneVerificationConfiguration.swift in Sources */,
+				7DAD21B7243D2B3E00B00E9F /* DBImport.swift in Sources */,
 				7D42DCB224368F7100D5644E /* RegisterTextFields.swift in Sources */,
 				7D66F087243A4171008117A7 /* ProfileViewController.swift in Sources */,
 				7D42DCBF2436AD9000D5644E /* PhoneVerificationLocalization.swift in Sources */,
