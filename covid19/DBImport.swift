@@ -332,7 +332,7 @@ struct DBImport {
     
     static let questions: [[String: Any]] = [
         ["title": [
-            "en": "How do you fill at this moment?",
+            "en": "How do you feel at this moment?",
             "mk": "Како се чувствувате во моментов?",
             "al": "Si po ndiheni tani?"],
          "description": [
